@@ -19,7 +19,7 @@ def long_planteer_calls(calls_long)# code an argument here
   # Your code here
   # answer = false
   long_planteer_calls.each do |call|
-    if call.length > 4
+    if calls_long.length > 4
       answer = true
     else
       answer = false
