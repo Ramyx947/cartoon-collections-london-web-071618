@@ -10,7 +10,7 @@ def summon_captain_planet(veggies)# code an argument here
   # Your code here
   # planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
     veggies.collect do |call| 
-    call.map + "!"
+    call.capitalize + "!"
   end
 
 end
